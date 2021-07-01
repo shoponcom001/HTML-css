@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-1 {
+  width: 960px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+.list-2 {
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.list-name {
+  padding: 20px;
+}
+main {
+  width: 960px;
+  height: 680px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box-orenge {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+}
+
+.box-yellow {
+  width: 30%;
+  height: 200px;
+  background-color: yellow;
+}
